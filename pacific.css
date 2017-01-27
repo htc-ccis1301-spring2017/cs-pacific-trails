@@ -1,0 +1,26 @@
+body {
+    background-color: #fff;
+    color: #666;
+}
+header {
+    background-color: #000033;
+    color: #fff;
+}
+nav {
+    background-color: #90c7e3;
+}
+h1 {
+    margin-bottom: 0;
+}
+h2 {
+    color: #3399cc;
+}
+h3 {
+    color: #000033;
+}
+
+/*Classes*/
+
+.resort {
+    color: #5c7fa3;
+}
