@@ -1,5 +1,6 @@
 body {
-    background-color: #fff;
+    background-image: linear-gradient(to bottom, #fff, #90c7e3);
+    background-repeat: no-repeat;
     color: #666;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,24 +9,36 @@ header {
     background-repeat: no-repeat;
     background-color: #000033;
     background-position: right;
-    color: #fff;
-    line-height: 400%;
-    text-indent: 1em;
+    color: #ffffff;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
 }
 nav {
-    background-color: #90c7e3;
+    background-color: #FFFFFF;
     font-weight: bold;
+    text-align: center;
+    padding: 10px;
 }
 nav a {
     text-decoration: none;
 }
+main {
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: block;
+}
 h1 {
     font-family: Georgia, "Times New Roman", serif;
+    margin-top: 0;
     margin-bottom: 0;
 }
 h2 {
     color: #3399cc;
     font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #CCCCCC;
 }
 h3 {
     color: #000033;
@@ -39,6 +52,7 @@ footer {
     font-style: italic;
     text-align: center;
     font-family: Georgia, "Times New Roman", serif;
+    padding: 20px;
 }
 
 /*Classes*/
@@ -53,25 +67,30 @@ footer {
 #contact {
     font-size: 90%;
 }
-
-/* Div containing images because we were instructed to put the photos into the CSS not HTML */
-
-div.coast {
+#wrapper {
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px #333333;
+}
+#homehero {
+    height: 300px;
     background-image: url(images/coasthero.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 1000px;
-    height: 337px;
 }
-div.yurt{
+#yurthero {
+    height: 300px;
     background-image: url(images/yurthero.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 1000px;
-    height: 306px;
 }
-div.trail{
+#trailhero {
+    height: 300px;
     background-image: url(images/trailhero.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 1000px;
-    height: 329px;
 }
-
