@@ -1,16 +1,92 @@
-body {background-color: #FFFFFF;
-         color: #666666;
-         }
-header {background-color: #000033;
-             color: #FFFFFF;}
-nav {background-color: #90C7E3;
-        }
-h1 {margin-bottom: 0;
+body {
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #000033;
+    background-image: url(images/sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+main {
+    display: block;
+    padding: 20px;
+}
+nav {
+    background-color: #90C7E3;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;    
+}
+
+nav a {
+    text-decoration: none;
+}
+h1 {
+    font-family: Georgia, Times New Roman, serif;
+    margin-bottom: 0;
+    margin-top: 0;
      }
 
 h2 {color: #3399CC;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #CCCCCC;
         }
 h3 {color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
      }
+ul {
+    list-style-image: url(images/marker.gif);
+}
+
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 75%;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}
 .resort {color: #5C7FA3;
+    font-weight: bold;
     }
+
+/* ID */
+
+#contact {
+    font-size: 90%;
+}
+#wrapper {
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px #333333;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2048px;
+    min-width: 960px;
+    width: 80%;
+}
+#homehero {
+    background-image: url(images/coasthero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+}
+#yurtshero {
+    background-image: url(images/yurthero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+}
+#trailhero {
+    background-image: url(images/trailhero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    
+}
