@@ -1,24 +1,60 @@
 body {
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     color: #666666;
-}
-h1 {
-    background-color: #000033;
-    color: #FFFFFF;
-    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav {
     background-color: #90C7E3;
+    font-weight: bold;
+    text-decoration: none;
+}
+h1 {
+    background-color: #000033;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 400%;
+    text-indent: 1em;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
 }
 h2 {
     color: #3399CC;
+    font-family: Georgia, "Times New Roman", serif;
 }
 h3 {
     color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
 }
 .resort {
     color: #5C7FA3;
+    font-weight: bold;
 }
 contact{
-    
+    font-size: 90%;
+}
+ul {
+    list-style-type: disc;
+}
+footer {
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+}
+#coast{
+    background-image: url(images/coasthero.jpg);
+    background-repeat: no-repeat;
+    height: 337px; width: 1000px;
+}
+#yurts{
+    background-image: url(images/yurthero.jpg);
+    background-repeat: no-repeat;
+    height: 306px; width: 1000px;
+}
+#activities{
+    background-image: url(images/trailhero.jpg);
+    background-repeat: no-repeat;
+    height: 329px; width: 1000px;
 }
