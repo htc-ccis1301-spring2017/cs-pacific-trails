@@ -1,27 +1,52 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
 }
-nav {
-    background-color: #90C7E3;
-    font-weight: bold;
-    text-decoration: none;
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px #333333;
 }
-h1 {
-    background-color: #000033;
+header {
     background-image: url(images/sunset.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    line-height: 400%;
-    text-indent: 1em;
+    background-color: #000033;
     color: #FFFFFF;
-    margin-bottom: 0;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+h1 {
     font-family: Georgia, "Times New Roman", serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+nav {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+main {
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: block;
 }
 h2 {
     color: #3399CC;
     font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #CCCCCC
 }
 h3 {
     color: #000033;
@@ -31,7 +56,7 @@ h3 {
     color: #5C7FA3;
     font-weight: bold;
 }
-contact{
+#contact{
     font-size: 90%;
 }
 ul {
@@ -42,19 +67,23 @@ footer {
     font-size: 75%;
     font-style: italic;
     font-family: Georgia, "Times New Roman", serif;
+    padding: 20px;
 }
-#coast{
+#homehero {
+    height: 300px; 
     background-image: url(images/coasthero.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 337px; width: 1000px;
 }
-#yurts{
+#yurthero {
+    height: 300px; 
     background-image: url(images/yurthero.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 306px; width: 1000px;
 }
-#activities{
+#trailhero {
+    height: 300px;
     background-image: url(images/trailhero.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 329px; width: 1000px;
 }
