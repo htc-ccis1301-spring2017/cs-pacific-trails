@@ -1,10 +1,10 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #4F6D93;
     /*white*/
     color: #666666;
     /*dark gray*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
     background-repeat: no-repeat;
 }
 
@@ -22,12 +22,10 @@ header {
 }
 
 nav {
-    background-color: #90C7E3;
-    /*sky blue*/
     font-weight: bold;
-    background-color: #FFFFFF;
-    text-align: center;
-    padding: 10px;
+    float: left;
+    width: 160px;
+    padding: 20px;
 }
 
 nav a {
@@ -37,6 +35,9 @@ nav a {
 main {
     padding: 1px 20px 20px 20px;
     display: block;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding-left: 30px;
 }
 
 h1 {
@@ -58,8 +59,29 @@ h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-ul {
+main ul {
     list-style-image: url(images/marker.gif);
+}
+
+nav {
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+
+nav ul{
+    list-style-type:none;
+}
+nav a:link {
+    color: #000033;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFFFFF;
 }
 
 .resort {
@@ -74,6 +96,8 @@ footer {
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
     padding: 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
 }
 
 #contact {
@@ -83,7 +107,7 @@ footer {
 #wrapper {
     margin: auto;
     width: 80%;
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 3px 3px #333333;
@@ -94,6 +118,7 @@ footer {
     background-image: url(images/coasthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #yurtHero {
@@ -101,6 +126,7 @@ footer {
     background-image: url(images/yurthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #trailHero {
@@ -108,4 +134,5 @@ footer {
     background-image: url(images/trailhero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
