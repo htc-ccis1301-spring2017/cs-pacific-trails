@@ -44,7 +44,10 @@ nav{
 
 #header1{
     color: #1B6AAF;
-    background-color:#0f183f;
+    background-color:#00002c;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
     margin-top: 0px;
     box-shadow: 3px 3px 3px #333333;
     text-align: center;
