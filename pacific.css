@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-color: #4F6D93;
+    background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,24 +17,45 @@ header {
 }
 
 main {
+    background-color: #FFFFFF;
     display: block;
-    padding: 1px 20px 20px 20px;
+    margin-left: 190px;
+    padding: 1px 20px 20px 30px;
 }
 
 nav {
-    background-color: #FFFFFF;
+    float: left;
     font-weight: bold;
-    padding-top: 10px;
-    text-align: center;
+    padding: 20px;
+    width: 160px;
+}
+
+nav ul {
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 nav a {
     text-decoration: none;
 }
 
+nav a:link {
+    color: #000033;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
 h1 {
     font-family: Georgia, "Times New Roman", serif;
-    margin-bottom: 0;
+    margin-top: 0;
 }
 
 h2 {
@@ -47,14 +69,16 @@ h3 {
     font-family: Georgia, "Times New Roman", serif;
 }
 
-ul {
+main ul {
     list-style-image: url(marker.gif);
 }
 
 footer {
+    background-color: #FFFFFF;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 75%;
     font-style: italic;
+    margin-left: 190px;
     padding: 20px;
     text-align: center;
 }
@@ -69,7 +93,7 @@ footer {
 }
 
 #wrapper {
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
     box-shadow: 3px 3px #333333;
     margin-left: auto;
     margin-right: auto;
@@ -83,6 +107,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 300px;
+    margin-left: 190px;
 }
 
 #yurthero {
@@ -90,6 +115,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 300px;
+    margin-left: 190px;
 }
 
 #trailhero {
@@ -97,4 +123,5 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 300px;
+    margin-left: 190px;
 }
