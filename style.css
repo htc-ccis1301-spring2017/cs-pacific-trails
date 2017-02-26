@@ -1,0 +1,104 @@
+body{
+    background-color: #4F6D93;
+    background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
+    background-repeat: no-repeat;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url("coasthero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 190px
+}
+
+#yurtshero {
+    height: 300px;
+    background-image: url("yurtshero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 190px;
+    margin-bottom: 0px;
+}
+#trailhero {
+    height: 300px;
+    background-image: url("hikinghero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 190px;
+    margin-bottom: 0px;
+    
+}
+
+main{
+    background-color: #FFFFFF;
+    display: block;
+    margin-left: 190px;
+}
+
+nav{
+    background-color: #90C7E3;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    font-size: 1.2em;
+}
+
+nav a {
+    display: inline-block;
+}
+
+nav a:link {
+    color: #000033;
+}
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+#header2 {
+    color: #1B6AAF;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+#header1{
+    color: #FFFFFF;
+    background-color:#00002c;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 0px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+#wrapper {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 2048px;
+    min-width: 960px;
+    background-color: #90C7E3;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+footer {
+    padding: 20px;
+    margin-left: 190px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
