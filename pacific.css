@@ -112,7 +112,95 @@ background-repeat: no-repeat;
 background-size: 100% 100%;
 }
 
+header, main, nav, footer, figure, figcaption, aside, section, article {
+display: block;
+}
+#mobile {
+display: none;
+}
 
+#desktop {
+display: inline;
+}
 
+@media only screen and (max-width: 64em) {
+	body { 
+	margin: 0;
+	background-color: #ffffff;
+	}
+	#wrapper {
+	min-width: 0px;
+	width: auto;
+	box-shadow: none;
+	}
+	main {
+	margin-left: 0px;
+	}
+	nav {
+	float: none;
+	width: auto;
+	text-align: center;
+	padding: 0.5em;
+	}
+	nav li {
+	display: inline;
+	padding: 0.25em 0.75em 0.25em 0.75em;
+	}
+	#homehero {
+	margin-left: 0px;
+	height: 200px;
+	}
+	#yurthero {
+	margin-left: 0px;
+	height: 200px;
+	}
+	#trailhero {
+	margin-left: 0px;
+	height: 200px;
+	}
+	footer {
+	margin-left: 0px;
+	}
+	          
+}
 
+@media only screen and (max-width: 37.5em) {
+	header {
+	padding-top: 1em;
+	}
+	main {
+	font-size: 90%;
+	padding: 0.1em 1em 0.1em 1em;
+	}
+	h1 {
+	font-size: 1.5em;
+	}
+	nav {
+	padding: 0px;
+	}
+	nav li {
+	display: block;
+	margin: 0px;
+	border-bottom: 2px solid #330000;
+	}
+	nav a {
+	display: block;
+	}
+	#homehero {
+	display: none;
+	}
+	#yurthero {
+	display: none;
+	}
+	#trailhero {
+	display: none;
+	}
+	#mobile {
+	display: inline;
+	}
+	#desktop {
+	display: none;
+	}
+	
+}
 
