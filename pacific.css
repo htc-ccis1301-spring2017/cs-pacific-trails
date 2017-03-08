@@ -49,8 +49,10 @@ nav ul {
     background-color: #90C7E3;
     min-width: 960px;
     max-width: 2048px;
-    box-shadow: 3px 3px 3px  #333333;
+    box-shadow: none;
 }
+
+
 
 main {
     padding-top: 1px;
@@ -95,7 +97,7 @@ nav a:hover {
 }
 
 #homehero {
-    height: 300px; 
+    height: 200px; 
     background-image: url(images/coasthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -103,7 +105,7 @@ nav a:hover {
 }
 
 #yurtshero {
-    height: 300px; 
+    height: 200px; 
     background-image: url(images/yurtshero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -111,7 +113,7 @@ nav a:hover {
 }
 
 #trailhero {
-    height: 300px;
+    height: 200px;
     background-image: url(images/trailhero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -135,4 +137,120 @@ footer {
     padding: 20px;
     background-color: #FFFFFF;
     margin-left: 190px;
+}
+
+header, main, nav, footer, section, article, figure, figcaption, aside {
+    display: block;
+}
+
+table {
+    border:  1px solid #3399CC; width:80%; border-spacing: 0px;
+}
+
+td, th {
+    border:  1px solid (#3399CC);
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+:nth-of-type {
+    background-color: #F5FAFC;
+}
+
+.text {
+    text-align: left;
+}
+
+@media only screen and (max-width: 64em) {
+    body {
+        background-color: #FFFFFF;
+        margin: 0px;
+    }
+    
+    #wrapper {
+        min-width: 0px;
+        width: auto;
+        box-shadow: none;
+    }
+    
+    main {
+        margin-left: 0px;
+    }
+    nav {
+        float: none;
+	    width: auto;
+	    text-align: center;
+	    padding: 0.5em;
+    }
+    
+    nav li {
+	    display: inline-block;
+	    padding: 0.25em 0.75em 0.25em 0.75em;
+	}
+    
+    #homehero {
+        height: 200px;
+        margin-left: 0px;
+    }
+    
+    #yurtshero {
+        height: 200px;
+        margin-left: 0px;
+    }
+    
+    #trailhero {
+        height: 200px;
+        margin-left: 0px;
+    }
+    
+    footer {
+        margin-left: 0px
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    header {
+        padding-top: 1em
+    }
+    
+    main {
+        margin-left: 0px;
+	    margin-right: 0px;
+	    padding: 0.1em 1em 0.1em 1em;
+	    font-size: 90%;
+    }
+    
+    h1 {
+        font-size: 1.5em
+    }
+    
+    nav {
+        padding: 0px;
+    }
+    
+    nav li {
+        display: block;
+	    margin: 0px;
+	    border-bottom: 2px solid #330000;
+    }
+    
+    #homehero {
+        background-image: none;
+        height: 0px;
+    }
+    
+    #yurtshero {
+        background-image: none;
+        height: 0px;
+    }
+    
+    trailhero {
+        background-image: none;
+        height: 0px;
+    }
+    
+    
 }
