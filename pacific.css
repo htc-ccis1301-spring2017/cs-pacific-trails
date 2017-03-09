@@ -1,3 +1,19 @@
+/* ===============BROWSER SUPPORT===============*/
+
+header,
+main,
+nav,
+footer,
+figure,
+figcaption,
+aside,
+section,
+article {
+    display: block;
+}
+
+/*=====================End======================*/
+
 body {
     background-image: linear-gradient(to bottom, #fff, #4f6d93);
     background-repeat: no-repeat;
@@ -42,6 +58,9 @@ nav ul {
     margin: 0;
     padding-left: 0;
 }
+
+/*main*/
+
 main {
     background-color: #ffffff;
     padding-top: 1px;
@@ -51,6 +70,12 @@ main {
     margin-left: 190px;
     display: block;
 }
+main ul {
+    list-style-image: url(images/marker.gif);
+}
+
+/*headers*/
+
 h1 {
     font-family: Georgia, "Times New Roman", serif;
     margin-top: 0;
@@ -65,9 +90,9 @@ h3 {
     color: #000033;
     font-family: Georgia, "Times New Roman", serif;
 }
-main ul {
-    list-style-image: url(images/marker.gif);
-}
+
+/*footer*/
+
 footer {
     background-color: #fff;
     font-size: 75%;
@@ -76,6 +101,28 @@ footer {
     font-family: Georgia, "Times New Roman", serif;
     margin-left: 190px;
     padding: 20px;
+}
+
+/*Table*/
+
+table {
+    border: 1px solid #3399cc;
+    width: 80%;
+    border-spacing: 0;
+}
+td,
+th {
+    padding: 5px;
+    border: 1px solid #3399cc;
+}
+td {
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {
+    background-color: #f5fafc;
 }
 
 /*Classes*/
@@ -87,6 +134,12 @@ footer {
 
 /* ID */
 
+#mobile {
+    display: none;
+}
+#desktop {
+    display: inline;
+}
 #contact {
     font-size: 90%;
 }
@@ -119,4 +172,83 @@ footer {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-left: 190px;
+}
+
+/*==================================================================/
+/==========================MEDIA QUERIES============================/
+/==================================================================*/
+
+
+/*=======================TABLET=============================*/
+
+@media only screen and (max-width: 64em) {
+    body {
+        margin: 0;
+        background-color: #FFFFFF;
+    }
+    #wrapper {
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+    }
+    main {
+        margin-left: 0;
+    }
+    nav {
+        float: none;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+    nav li {
+        display: inline;
+        padding: 0.25em 0.75em 0.25em 0.75em;
+    }
+    #homehero,
+    #yurthero,
+    #trailhero {
+        margin-left: 0;
+        height: 200px;
+    }
+    footer {
+        margin-left: 0;
+    }
+}
+
+/*=======================MOBILE=============================*/
+
+@media only screen and (max-width: 37.5em) {
+    header {
+        padding-top: 1em;
+    }
+    main {
+        padding: 0.1em 1em 0.1em 1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    nav {
+        padding: 0;
+    }
+    nav li {
+        display: block;
+        margin: 0;
+        border-bottom: 2px solid #330000;
+    }
+    nav a {
+        display: block;
+    }
+    #homehero,
+    #yurthero,
+    #trailhero {
+        background-image: none;
+        height: 0;
+    }
+    #mobile {
+        display: inline;
+    }
+    #desktop {
+        display: none;
+    }
 }
