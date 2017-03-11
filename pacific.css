@@ -1,3 +1,22 @@
+header,
+main,
+footer,
+figure,
+figcaption,
+aside,
+selection,
+article {
+    display: block;
+}
+
+desktop {
+    display: inline;
+}
+
+mobile {
+    display: none;
+}
+
 body {
     background-color: #4F6D93;
     background-image: linear-gradient(to bottom, #ffffff, #4F6D93);
@@ -131,4 +150,47 @@ footer {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-left: 190px;
+}
+
+@media only screen and (max-width: 64em) {
+    body {
+        margin: 0;
+        background-color: #FFFFFF;
+    }
+    #wrapper {
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+    }
+    main {
+        margin-left: 0;
+    }
+    nav {
+        float: none;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+    nav ul {
+        display: inline;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+    }
+    #homehero {
+        margin-left: 0;
+        height: 200px;
+    }
+    #yurthero {
+        margin-left: 0;
+        height: 200px;
+    }
+    #trailhero {
+        margin-left: 0;
+        height: 200px;
+    }
+    footer {
+        margin-left: 0;
+    }
 }
