@@ -9,11 +9,11 @@ article {
     display: block;
 }
 
-desktop {
+#desktop {
     display: inline;
 }
 
-mobile {
+#mobile {
     display: none;
 }
 
@@ -152,6 +152,30 @@ footer {
     margin-left: 190px;
 }
 
+table {
+    border: 1px solid #3399CC;
+    border-spacing: 0;
+    Width: 80%;
+}
+
+th,
+td {
+    padding: 5px;
+    border: 1px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+.tr:nth-of-type {
+    background-color: #F5FAFC;
+}
+
 @media only screen and (max-width: 64em) {
     body {
         margin: 0;
@@ -163,7 +187,7 @@ footer {
         box-shadow: none;
     }
     main {
-        margin-left: 0;
+        margin: 0;
     }
     nav {
         float: none;
@@ -171,26 +195,64 @@ footer {
         text-align: center;
         padding: 0.5em;
     }
-    nav ul {
+    nav ul li {
         display: inline;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
         padding-left: 0.75em;
         padding-right: 0.75em;
     }
-    #homehero {
-        margin-left: 0;
-        height: 200px;
-    }
-    #yurthero {
-        margin-left: 0;
-        height: 200px;
-    }
+    #homehero,
+    #yurthero,
     #trailhero {
         margin-left: 0;
         height: 200px;
     }
     footer {
         margin-left: 0;
+    }
+}
+
+
+/* danngggg */
+
+@media only screen and (max-width: 37.5em) {
+    head {
+        padding-top: 1em;
+    }
+    main {
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    nav {
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        margin: 0;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #330000;
+    }
+    nav a {
+        display: block;
+    }
+    #homehero,
+    #yurthero,
+    #trailhero {
+        background-image: none;
+        height: 0;
+    }
+    #mobile {
+        display: inline;
+    }
+    #desktop {
+        display: none;
     }
 }
