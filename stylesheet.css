@@ -1,28 +1,42 @@
-header {
-    background-color: #000033;
-    color: #ffffff;
-}
-
-H1 {
-    margin-bottom: 0;
-}
-
-nav {
-    background-color: #90C7E3;
-}
-
-h2 {
-    color: #3399CC;
-}
-
-h3 {
-    color: #000033;
-}
-
-body {
-    color: #666666;
-}
-
-.resort {
-    color: #5C7FA3;
-}
+                        header {
+                        background-color: #000033;
+                        color: #ffffff;
+                    }
+                    
+                    H1 {
+                        margin: 0;
+                        padding: 10px;
+                        text-align: center
+                    }
+                    
+                    nav {
+                        background-color: #90C7E3;
+                        width: 150px;
+                        float: left;
+                        text-align: center;
+                        column-span: none
+                    }
+                    
+                    h2 {
+                        color: #3399CC;
+                    }
+                    
+                    h3 {
+                        color: #000033;
+                    }
+                    
+                    body {
+                        color: #666666;
+                    }
+                    
+                    .resort {
+                        color: #5C7FA3;
+                    }
+                    
+                    main {
+                        margin-left: 165px;
+                    }
+                    
+                    footer {
+                        margin-left: 165px;
+                        text-align: center;
