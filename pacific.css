@@ -51,13 +51,13 @@ nav {
 
 nav a {
     text-decoration: none;
+    transition: color 3s ease-out;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
-    font-size: 1.2em;
 }
 
 nav a:link {
@@ -117,6 +117,7 @@ footer {
     padding: 20px;
     margin-left: 190px;
     background-color: #FFFFFF;
+    clear: both;
 }
 
 #contact {
@@ -178,6 +179,84 @@ td {
 
 tr:nth-of-type(even) {
     background-color: #F5FAFC;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 130px;
+}
+
+video,
+embed {
+    float: right;
+    padding-left: 20px;
+}
+
+#galFig {
+    margin: 0;
+    position: absolute;
+    top: 32px;
+    left: 320px;
+    text-align: left;
+    opacity: .25;
+}
+
+#gallery {
+    position: relative;
+    height: 200px;
+}
+
+#gallery ul {
+    float: left;
+    display: block;
+    width: 250px;
+    list-style: none;
+}
+
+#gallery li {
+    display: inline-block;
+    margin: 8px;
+}
+
+#gallery img {
+    border: none;
+}
+
+#gallery a {
+    text-decoration: none;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    color: black;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    border: none;
+    top: 32px;
+    left: 320px;
+    opacity: 1;
 }
 
 
@@ -268,5 +347,18 @@ tr:nth-of-type(even) {
     }
     #desktop {
         display: none;
+    }
+    label {
+        float: none;
+        text-align: left;
+    }
+    input[type="submit"] {
+        margin-left: 0px;
+    }
+    #gallery {
+        display: none;
+    }
+    video{
+        display:none;
     }
 }
