@@ -1,3 +1,12 @@
+header,
+main,
+nav,
+footer,
+figure,
+figcaption {
+    display: block;
+}
+
 body {
     background-color: #4F6D93;
     color: #666666;
@@ -35,6 +44,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
+   transition:3s ease-in; 
 }
 
 nav a:link {
@@ -87,6 +97,8 @@ footer {
     padding: 20px;
     margin-left: 190px;
     background-color: #FFFFFF;
+    float:none;
+    
 }
 
 #wrapper {
@@ -131,13 +143,116 @@ main {
     margin-left: 190px;
 }
 
-header,
-main,
-nav,
-footer,
-figure,
-figcaption {
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+table {
+    border: 1px solid #3399CC;
+    width: 80%;
+    border-spacing: 0;
+}
+
+td,
+th {
+    border: 1px solid #3399CC;
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #F5FAFC;
+}
+
+label {
+    float: left;
     display: block;
+    text-align: right;
+    width: 120px;
+    padding: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+ input[type="submit"]{
+    margin-left: 130px;
+    
+}
+
+video,
+embed {
+    float: right;
+    padding-left: 20px;
+}
+
+#gallery {
+    height: 200px;
+    text-align: left;
+    position: relative;
+}
+
+#gallery ul {
+    list-style-type: none;
+    width: 300px;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+   
+}
+
+#gallery img {
+    float: none;
+    border-style: none;
+}
+
+#gallery a {
+    text-decoration: none;
+    font-style: italic;
+    color: #333333;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    opacity: .25;
 }
 
 @media only screen and (max-width: 64em) {
@@ -200,9 +315,9 @@ figcaption {
     nav {
         padding: 0;
     }
-    nav,
-    nav ul,
-    nav li {
+    
+    nav li
+     {
         display: block;
         margin: 0;
         border-bottom: 2px solid #330000;
@@ -228,28 +343,14 @@ figcaption {
     #desktop {
         display: none;
     }
-}
-
-table {
-    border: 1px solid #3399CC;
-    width: 80%;
-    border-spacing: 0;
-}
-
-td,
-th {
-    border: 1px solid #3399CC;
-    padding: 5px;
-}
-
-td {
-    text-align: center;
-}
-
-.text {
-    text-align: left;
-}
-
-tr:nth-of-type(odd) {
-    background-color: #ADD8E6;
+    input[type="submit"] {
+        margin-left: 0px;
+    }
+    label {
+        float: none;
+        text-align: left;
+    }
+    
+    #gallery {display: none;}
+    video{display: none;}
 }
