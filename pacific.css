@@ -223,7 +223,7 @@ embed {
     position: absolute;
     left: -1000px;
     opacity: 0;
-    transition: opacity 3s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 #gallery a:hover span {
     position: absolute;
@@ -314,6 +314,19 @@ figure {
         display: inline;
     }
     #desktop {
+        display: none;
+    }
+    input[type="submit"] {
+        margin-left: 0px;
+    }
+    label {
+        float: none;
+        text-align: left;
+    }
+    #gallery {
+        display: none;
+    }
+    video {
         display: none;
     }
 }
