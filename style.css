@@ -34,6 +34,59 @@ body{
     display: inline;
 }
 
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    right padding: inherit;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 130px;;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+video, embed {
+    float: right;
+    padding-left: 20px;
+}
+
+#gallery {
+    position: relative;
+}
+
+#gallery ul {
+    width: 300px;
+    list-style-type: none;
+}
+
+gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#gallery span {
+    display: none;
+}
+
+#gallery a:hover span {
+    display: block; 
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    text-align: center;
+}
+
+
 #mobile {
     display: none;
 }
@@ -42,6 +95,8 @@ main{
     background-color: #FFFFFF;
     display: block;
     margin-left: 190px;
+    text-indent: 20px;
+    
 }
 
 nav{
@@ -235,6 +290,14 @@ footer {
     
     #mobile {
         display: inline;
+    }
+    
+    label {
+        max-width: 37.5em;
+    }
+    
+    submit {
+        margin-left: none;
     }
 }
 
