@@ -48,7 +48,8 @@ nav {
     width: 160px;
 }
 nav a {
-    text-decoration: none;    
+    text-decoration: none; 
+    transition: color 3s ease-out;
 }
 nav a:link {
     color: #000033;
@@ -95,6 +96,7 @@ footer {
     padding: 20px;
     background-color: #FFFFFF;
     margin-left: 190px;
+    clear: both;
 }
 #homehero {
     height: 300px; 
@@ -137,6 +139,74 @@ td {
 tr:nth-of-type(odd) {
     background-color: #F5FAFC;
 }
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 5px;
+}
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 130px;   
+}
+video, embed {
+    float: right; 
+    padding-left: 20px;
+}
+
+#gallery {
+    position: relative;
+    height: 200px;
+}
+
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    opacity: 0.25;
+}
+
+#gallery ul {
+    width: 300px;
+    list-style-type: none;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#gallery img {
+    border-style: none;
+    float: none;
+}
+
+gallery a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-style: italic;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+
 header, main, nav, footer, figure, figcaption, aside, section, article {
     display: block;
 }
@@ -169,4 +239,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article {
     #trailhero {background-image: none; height: 0;}
     #mobile {display: inline;}
     #desktop {display: none;}
+    label {float: none; text-align: left;}
+    input[type="submit"] {margin-left: 0;}
+    #gallery {display: none;}
 }
