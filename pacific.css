@@ -1,0 +1,245 @@
+body {
+    background-color: #4F6D93;
+    background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
+    background-repeat: no-repeat;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #90C7E3;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px  #333333;
+}
+header {
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #000033;
+    color: #FFFFFF;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2 {
+    color: #3399CC;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #CCCCCC;
+}
+h3 {
+    color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+}
+nav {
+    /*background-color: #FFFFFF;*/
+    font-weight: bold;
+    text-decoration: none;
+    /*text-align: center;*/
+    padding: 20px;
+    float: left;
+    width: 160px;
+}
+nav a {
+    text-decoration: none; 
+    transition: color 3s ease-out;
+}
+nav a:link {
+    color: #000033;
+}
+nav a:visited {
+    color: #344873;
+}
+nav a:hover {
+    color: #FFFFFF;
+}
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+main {
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: block;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding-left: 30px;
+    list-style-image: url(images/marker.gif)
+}
+main ul {
+    list-style-type: disc;
+}
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+#contact{
+    font-size: 90%;
+}
+footer {
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    clear: both;
+}
+#homehero {
+    height: 300px; 
+    background-image: url(images/coasthero.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#yurthero {
+    height: 300px; 
+    background-image: url(images/yurthero.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#trailhero {
+    height: 300px;
+    background-image: url(images/trailhero.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+table {
+    border: 1px solid #3399CC; 
+    width: 80%; 
+    border-spacing: 0;
+}
+td, th {
+    padding: 5px;
+    border: 1px solid #3399CC; 
+}
+td {
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {
+    background-color: #F5FAFC;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 5px;
+}
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 130px;   
+}
+video, embed {
+    float: right; 
+    padding-left: 20px;
+}
+
+#gallery {
+    position: relative;
+    height: 200px;
+}
+
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    opacity: 0.25;
+}
+
+#gallery ul {
+    width: 300px;
+    list-style-type: none;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#gallery img {
+    border-style: none;
+    float: none;
+}
+
+gallery a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-style: italic;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+
+header, main, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+#mobile {
+    display: none;
+}
+#desktop {
+    display: inline;
+}
+@media only screen and (max-width: 64em) {
+    body {margin: 0px; background-color: #FFFFFF;}
+    #wrapper {min-width: 0px; width: auto; box-shadow: none;}
+    main {margin-left: 0px;}
+    nav {float: none; width: auto; text-align: center; padding: 0.5em;}
+    nav li {display: inline; padding-top: 0.25em; padding-bottom: 0.25em; padding-right: 0.75em; padding-left: 0.75em;}
+    #homehero {margin-left: 0px; height: 200px;}
+    #yurthero {margin-left: 0px; height: 200px;}
+    #trailhero {margin-left: 0px; height: 200px;}
+    footer {margin-left: 0px;}
+}
+@media only screen and (max-width: 37.5em) {
+    header {padding-top: 1em;}
+    main {padding-top: 0.1em; padding-bottom: 0.1em; padding-right: 1em; padding-left: 1em; font-size: 90%;}
+    h1{font-size: 1.5em;}
+    nav {padding: 0;}
+    nav li {display: block; margin: 0; border-bottom: solid 2px #330000;}
+    nav a:link {display: block;}
+    #homehero {background-image: none; height: 0;}
+    #yurthero {background-image: none; height: 0;}
+    #trailhero {background-image: none; height: 0;}
+    #mobile {display: inline;}
+    #desktop {display: none;}
+    label {float: none; text-align: left;}
+    input[type="submit"] {margin-left: 0;}
+    #gallery {display: none;}
+}
