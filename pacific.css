@@ -12,6 +12,10 @@ nav {
     background-color: #90C7E3;
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
 h2 {
     color: #3399CC;
 }
