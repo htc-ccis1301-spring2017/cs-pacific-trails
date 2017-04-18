@@ -63,27 +63,6 @@ ul {
     list-style-image: url(images/marker.gif)
 }
 
-.coast {
-    background-image: url(images/coasthero.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 300px;
-}
-
-.trail {
-    background-image: url(images/trailhero.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 300px;
-}
-
-.yurt {
-    background-image: url(images/yurthero.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 300px;
-}
-
 #yurthero {
     height: 300px;
     background-size: 100% 100%;
