@@ -8,14 +8,17 @@ footer {
     font-family: serif, Times New Roman, Georgia;
     font-size: 75%;
     font-style: italic;
+    text-align: center;
 }
 
 header {
     background-color: #000033;
-    background-image: url(images/coasthero.jpg);
+    background-image: url(images/sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
     color: #ffffff;
     line-height: 400%;
-    text-indent: 2%;
+    text-align: center;
 }
 
 h1 {
@@ -36,6 +39,7 @@ h3 {
 nav {
     background-color: #90C7E3;
     font-weight: bold;
+    text-align: center;
 }
 
 nav a {
@@ -44,6 +48,30 @@ nav a {
 
 ul {
     list-style-image: url(images/marker.gif)
+}
+
+.coast {
+    background-image: url(images/coasthero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 250px;
+}
+
+.trail {
+    background-image: url(images/trailhero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 250px;
+}
+
+.yurt {
+    background-image: url(images/yurthero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 250px;
 }
 
 .resort {
