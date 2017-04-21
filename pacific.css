@@ -1,3 +1,54 @@
+header,
+main,
+nav,
+fooder,
+figcaption,
+aside,
+section,
+article {
+    display: block;
+}
+
+@media only screen and (max-width: 64em) {
+    body {
+        background-color: #FFFFFF;
+        margin: 0;
+    }
+    #homehero {
+        height: 200px;
+        margin-left: 0;
+    }
+    #trailhero {
+        height: 200px;
+        margin-left: 0;
+    }
+    #yurthero {
+        height: 200px;
+        margin-left: 0;
+    }
+    #wrapper {
+        box-shadow: none;
+        min-width: 0;
+        width: auto;
+    }
+    main {
+        margin: 0;
+    }
+    nav {
+        float: none;
+        padding: 0.5em;
+        text-align: center;
+        width: auto
+    }
+    nav ul li {
+        display: inline;
+        padding: .25em .25em 0.75em 0.75em;
+    }
+    footer {
+        margin-left: 0;
+    }
+}
+
 body {
     background-color: #4F6D93;
     background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
@@ -45,15 +96,15 @@ h3 {
 
 main {
     background-color: #FFFFFF;
-    padding: 1px 20px 20px 30px;
     display: block;
     margin-left: 190px;
+    padding: 1px 20px 20px 30px;
 }
 
 nav {
-    font-weight: bold;
     float: left;
-    padding: 20px;
+    font-weight: bold;
+    padding: 20px 20px;
     width: 160px;
 }
 
