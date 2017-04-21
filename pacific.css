@@ -49,6 +49,48 @@ article {
     }
 }
 
+@media only screen and (max-width: 37.5em) {
+    #header {
+        padding: 1em;
+    }
+    main {
+        padding: 0.1em 0.1em 1em 1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    nav {
+        padding: 0
+    }
+    nav ul li {
+        display: block;
+        margin: 0;
+        border-bottom: 2px #330000;
+    }
+    nav a {
+        display: block;
+    }
+    #homehero {
+        background-image: none;
+        height: 0;
+    }
+    #yurthero {
+        background-image: none;
+        height: 0;
+    }
+    #trailhero {
+        background-image: none;
+        height: 0;
+    }
+    #mobile {
+        display: inline;
+    }
+    #desktop {
+        display: none;
+    }
+}
+
 body {
     background-color: #4F6D93;
     background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
@@ -58,7 +100,7 @@ body {
 
 footer {
     background-color: #FFFFFF;
-    font-family: serif, Times New Roman, Georgia;
+    font-family: serif, "Times New Roman", Georgia;
     font-size: 75%;
     font-style: italic;
     margin-left: 190px;
@@ -78,20 +120,20 @@ header {
 }
 
 h1 {
-    font-family: serif, Times New Roman, Georgia;
+    font-family: serif, "Times New Roman", Georgia;
     margin-bottom: 0;
     margin-top: 0;
 }
 
 h2 {
     color: #3399CC;
-    font-family: serif, Times New Roman, Georgia;
+    font-family: serif, "Times New Roman", Georgia;
     text-shadow: 1px 1px #CCCCCC;
 }
 
 h3 {
     color: #000033;
-    font-family: serif, Times New Roman, Georgia;
+    font-family: serif, "Times New Roman", Georgia;
 }
 
 main {
